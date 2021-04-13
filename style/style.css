@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+    color: #222;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a                             {text-decoration: none;}
+a:link                       {color: #222;}
+a:visited                   {color: #222;}
+a:active                    {color: #333;}
+a:hover                    {color: #333;}
+ul                            {list-style: none;}
+img                         {vertical-align: middle;}
+
+/* Reset */
+
+
+/* 가이드 라인 */
+div#wrap                     {border: 2px solid #000;}
+/*div#mainSlide              {border: 2px solid #000;}*/
+/*div#slideArea               {border: 2px solid #0af;}*/
+/*div.btnArrow                {border: 2px solid #aaa;}*/
+/*div#shuttleFrame         {border: 4px solid #fc0;}*/
+/* 가이드 라인 */
+
+
+/*div#wrap*/
+div#wrap {
+    width: 400px;
+    padding: 20px;
+    margin: 40px auto;
+}
+/*div#wrap*/
+
+/* 슬라이드 영역 */
+div#mainSlide {
+    width: 300px;
+    padding: 4px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+div.btnArrow {
+    width: 40px;
+    text-align: center;
+}
+div.btnArrow span {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 30px;
+    background-color: rgba(0, 136, 255, 0.6);
+
+    cursor: pointer;
+    display: inline-block;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div#slideArea {
+    width: 229px;
+    padding: 6px;
+
+    overflow: hidden;
+}
+#slideArea>#shuttleFrame {
+    width: 300px;
+    display: flex;
+}
+div.slideBox {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 슬라이드 영역 */
+
+
+
+
+
+
+
+
+
